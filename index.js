@@ -18,7 +18,7 @@ console.log(typeof language);
 
 language = "Srpski";
 
-const description = country + " je " + continent + " i " + population + " miliona ljudi govore " + language;
+const description = `${country} je ${continent} i ${population} miliona ljudi govore ${language}`;
 console.log(description);
 
 const massMark = 78;
@@ -37,3 +37,16 @@ const BMIMark2 = massMark2 / heightMark2 ** 2;
 const BMIJohn2 = massJohn2 / (heightJohn2 * heightJohn2);
 const markHigherBMI2 = BMIMark2 > BMIJohn2;
 console.log(BMIMark2, BMIJohn2, markHigherBMI2);
+
+if(BMIMark2 > BMIJohn2) {
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn})!`);
+}
+else {
+    console.log(`John's BMI (${BMIJohn}) is higher than Mark's (${BMIMark})!`);
+}
+if(population > 33) {
+    console.log(`${country} i njena populacija je iznad proseka.`);
+}
+else {
+    console.log(`${country} i njen narod su ${33 - population} miliona ispod proseka.`);
+}
