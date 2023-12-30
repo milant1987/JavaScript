@@ -50,3 +50,64 @@ if(population > 33) {
 else {
     console.log(`${country} i njen narod su ${33 - population} miliona ispod proseka.`);
 }
+console.log('9' - '5');
+console.log('19' - '13' + '17');
+console.log('19' - '13' + 17);
+console.log('123' < 57);
+console.log(5 + 6 + '4' + 9 - 4 - 2);
+
+const numNeighbours = 1;
+if(numNeighbours == 1) {
+    console.log('Only 1 border!');
+}
+else if(numNeighbours > 1) {
+    console.log('More than 1 border');
+}
+else {
+    console.log('No borders');
+}
+const speakEnglish = false;
+const lessThenFiftyMillionPeople = true;
+const isNotIsland = true;
+if(speakEnglish && lessThenFiftyMillionPeople && isNotIsland) {
+    console.log('Sara treba ziveti u Srbiji');
+}
+else {
+    console.log('Srbija ne ispunjava sve Sarine uslove');
+}
+const scoreDolphins = (96 + 108 + 89)/3;
+const scoreKoalas = (88 + 91 + 110)/3;
+console.log(scoreDolphins, scoreKoalas);
+if(scoreDolphins > scoreKoalas) {
+    console.log('The winner is Dolphins');
+}
+else if(scoreKoalas > scoreDolphins)
+{
+    console.log('The winner is Koalas');
+} else {
+    console.log('Both are the winners');
+}
+const scoreDolphinsB1 = (97 + 112 + 101)/3;
+const scoreKoalasB1 = (109 + 95 + 123)/3;
+console.log(scoreDolphinsB1, scoreKoalasB1);
+if(scoreDolphinsB1 > scoreKoalasB1 && scoreDolphinsB1 >= 100) {
+    console.log('The winner is Dolphins');
+}
+else if(scoreKoalasB1 > scoreDolphinsB1 && scoreKoalasB1 >=100)
+{
+    console.log('The winner is Koalas');
+} else {
+    console.log('Both are the winners');
+}
+const scoreDolphinsB2 = (97 + 112 + 101)/3;
+const scoreKoalasB2 = (109 + 95 + 106)/3;
+console.log(scoreDolphinsB2, scoreKoalasB2);
+if(scoreDolphinsB2 > scoreKoalasB2 && scoreDolphinsB2 >= 100) {
+    console.log('The winner is Dolphins');
+}
+else if(scoreKoalasB2 > scoreDolphinsB2 && scoreKoalasB2 >=100)
+{
+    console.log('The winner is Koalas');
+} else {
+    console.log('Both are the winners');
+}
