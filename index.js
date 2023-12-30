@@ -111,3 +111,28 @@ else if(scoreKoalasB2 > scoreDolphinsB2 && scoreKoalasB2 >=100)
 } else {
     console.log('Both are the winners');
 }
+const languageSS = 'spanish';
+switch(languageSS) {
+    case 'chinese or mandarin':
+    console.log('MOST number of native speakers!');
+    break;
+    case 'spanish':
+    console.log('2nd place in number of native speakers');
+    break;
+    case 'english':
+    console.log('3rd place');
+    break;
+    case 'hindi':
+    console.log('Number 4');
+    break;
+    case 'arabic':
+    console.log('5th most spoken language');
+    break;
+    default:
+    console.log('Great language too :D');
+} 
+console.log(`${country} i njen narod su ${population > 33 ? 'iznad' : 'ispod'} proseka od 33 miliona.`);
+
+const bill = 275;
+const tip = bill <= 300 && bill >= 50 ? bill * 0.15 : bill * 0.2;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
